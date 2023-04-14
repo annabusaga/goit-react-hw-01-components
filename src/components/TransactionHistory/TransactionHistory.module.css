@@ -1,0 +1,8 @@
+.transactionHistory{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.thead{
+    background-color: lightgreen;
+}

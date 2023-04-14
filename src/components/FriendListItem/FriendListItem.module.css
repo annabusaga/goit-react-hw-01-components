@@ -1,0 +1,16 @@
+.item{
+    border:1px solid green;
+    width: 300px;
+    display: flex;
+    gap:15px;
+    align-items: center;
+    
+    padding: 10px 0;
+    padding-left: 10px;
+}
+
+.status {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}

@@ -1,0 +1,19 @@
+.title{
+    text-align: center;
+}
+
+.statList{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.item{
+    width: 100px;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
