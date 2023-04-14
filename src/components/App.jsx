@@ -1,4 +1,3 @@
-import css from './Profile/Profile.module.css';
 import Profile from 'components/Profile/Profile';
 import user from 'data/user.json';
 import data from 'data/data.json';
