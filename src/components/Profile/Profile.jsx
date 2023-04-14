@@ -10,25 +10,25 @@ export default function Profile({
 }) {
   return (
     <>
-      <div class="profile">
-        <div class="description">
-          <img src={avatar} alt="User avatar" class="avatar" />
-          <p class="name">{username}</p>
-          <p class="tag">{tag}</p>
-          <p class="location">{location}</p>
+      <div className={css.profile}>
+        <div className={css.description}>
+          <img src={avatar} alt="User avatar" className={css.avatar} />
+          <p className={css.name}>{username}</p>
+          <p className={css.tag}>{tag}</p>
+          <p className={css.location}>{location}</p>
         </div>
-        <ul class="stats">
+        <ul className={css.stats}>
           <li>
-            <span class="label">{followers}</span>
-            <span class="quantity">1000</span>
+            <span className={css.label}>{followers}</span>
+            <span className={css.quantity}>1000</span>
           </li>
           <li>
-            <span class="label">{views}</span>
-            <span class="quantity">2000</span>
+            <span className={css.label}>{views}</span>
+            <span className={css.quantity}>2000</span>
           </li>
           <li>
-            <span class="label">{likes}</span>
-            <span class="quantity">3000</span>
+            <span className={css.label}>{likes}</span>
+            <span className={css.quantity}>3000</span>
           </li>
         </ul>
       </div>
