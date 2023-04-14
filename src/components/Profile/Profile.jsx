@@ -19,16 +19,16 @@ export default function Profile({
         </div>
         <ul className={css.stats}>
           <li>
-            <span className={css.label}>{followers}</span>
-            <span className={css.quantity}>1000</span>
+            <span className={css.label}>Followers</span>
+            <span className={css.quantity}>{followers}</span>
           </li>
           <li>
-            <span className={css.label}>{views}</span>
-            <span className={css.quantity}>2000</span>
+            <span className={css.label}>Views</span>
+            <span className={css.quantity}>{views}</span>
           </li>
           <li>
-            <span className={css.label}>{likes}</span>
-            <span className={css.quantity}>3000</span>
+            <span className={css.label}>Likes</span>
+            <span className={css.quantity}>{likes}</span>
           </li>
         </ul>
       </div>
