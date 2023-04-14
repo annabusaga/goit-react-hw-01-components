@@ -8,14 +8,15 @@ import FriendList from './FriendList/FriendList';
 import friends from 'data/friends.json';
 export const App = () => {
   console.log(friends);
+  const { username, tag, location, avatar, stats } = user;
   return (
     <>
       <Profile
-        username={user.username}
-        tag={user.tag}
-        location={user.location}
-        avatar={user.avatar}
-        stats={user.stats}
+        username={username}
+        tag={tag}
+        location={location}
+        avatar={avatar}
+        stats={stats}
       />
       <Statistics title="Upload stats" stats={data} />
       <FriendList friends={friends} />
